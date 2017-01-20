@@ -1,0 +1,5 @@
+/.vs
+/src/ConsoleCoreDapper/bin
+/src/ConsoleCoreDapper/obj
+/src/ConsoleCoreDapper/*.user
+/src/ConsoleCoreDapper/project.lock.json
