@@ -16,7 +16,7 @@ namespace ConsoleCoreDapper
         {
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             AutoMapperConfiguration.Configure();
-            MySqlConnection con = new MySqlConnection("server=60.205.188.96;database=sampledb;uid=JamesHu;pwd=p@ssw0rd;SslMode=None");
+            MySqlConnection con = new MySqlConnection("server=;database=;uid=;pwd=;SslMode=None");
             //新增数据
             //con.Execute("insert into t_dept values(null,3, '设计', '最美的设计')");
             //新增数据返回自增id
